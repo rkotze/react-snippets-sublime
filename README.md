@@ -1,26 +1,16 @@
-# babel-sublime-snippets
+# react-developer-snippets
 
-Sublime snippets for [React](http://facebook.github.io/react/docs/component-specs.html) in ES5 and [ES6](http://kangax.github.io/compat-table/es6/) flavors.
+Started this project from [babel-sublime-snippets](https://github.com/babel/babel-sublime-snippets) but going to tailor it to fit a better developer experience.
+
+Will have a range of useful **React** snippets for **sublime** including unit test snippets.
 
 ## Installation
 
-Find it as [**Babel Snippets**](https://packagecontrol.io/packages/Babel Snippets) through [Package Control](https://packagecontrol.io/).
+Clone this in your `Packages/User` folder and remove what you don't want.
 
-## Using the "React: wrap in a component" snippet
+## Support
 
-First, select a block of JSX. Then, from the Command Palette select "React: wrap in a component". Or, you can set up a key binding.
-
-To set a key binding, go to "Preferences: Key Bindings - User" from the Command Palette and add an entry like this:
-
-```json
-{
-  "keys": ["ctrl+shift+,"],
-  "command": "insert_snippet",
-  "args": {
-    "name": "Packages/Babel Snippets/react_wrap.sublime-snippet"
-  }
-}
-```
+Only the ES6 and `React 15+` versions.
 
 ## Available snippets
 
@@ -28,20 +18,16 @@ To set a key binding, go to "Preferences: Key Bindings - User" from the Command 
 
 | Trigger  | Content |
 | -------: | ------- |
-| `rcc→`   | class component skeleton |
-| `rcc→`   | legacy component skeleton |
-| `cdm→`   | `componentDidMount() {…}` |
-| `cdup→`  | `componentDidUpdate(prevProps, prevState) {…}` |
-| `cwm→`   | `componentWillMount() {…}` |
-| `cwr→`   | `componentWillReceiveProps(nextProps) {…}` |
-| `cwun→`  | `componentWillUnmount() {…}` |
-| `cwup→`  | `componentWillUpdate(nextProps, nextState) {…}` |
-| `fdn→`   | `React.findDOMNode(…)` |
-| `gdp→`   | `getDefaultProps() {…}` |
-| `gis→`   | `getInitialState() {…}` |
-| `ren→`   | `render() {…}` |
-| `sst→`   | `this.setState(…)` |
-| `scu→`   | `shouldComponentUpdate(nextProps, nextState) {…}` |
+| `reactCreateClass→`   | class component skeleton |
+| `didMount→`   | `componentDidMount() {…}` |
+| `didUpdate→`  | `componentDidUpdate(prevProps, prevState) {…}` |
+| `willMount→`   | `componentWillMount() {…}` |
+| `willRecieveProps→`   | `componentWillReceiveProps(nextProps) {…}` |
+| `willUnmount→`  | `componentWillUnmount() {…}` |
+| `willUpdate→`  | `componentWillUpdate(nextProps, nextState) {…}` |
+| `render→`   | `render() {…}` |
+| `setState→`   | `this.setState(…)` |
+| `shouldUpdate→`   | `shouldComponentUpdate(nextProps, nextState) {…}` |
 | `props→` | `this.props` |
 | `state→` | `this.state` |
 | `pt→`    | `propTypes { ... }` |
@@ -64,6 +50,3 @@ To set a key binding, go to "Preferences: Key Bindings - User" from the Command 
 
   * Unsupported React API snippets: `displayName`, `forceUpdate`, `getDOMNode` (use `React.findDOMNode`), `ismounted`, `mixins`, `replaceProps`, `replaceState`, `setProps`, `statics`.
 
-## Snippet(ing)
-
-Read [Extending Sublime Text » Snippets](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/extensibility/snippets.html).
