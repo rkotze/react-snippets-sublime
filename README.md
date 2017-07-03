@@ -20,6 +20,7 @@ Only the ES6 and `React 15+` versions.
 | -------: | ------- |
 | `reactCreateClass→`   | class component skeleton |
 | `reactStartClass`   | starting a new file with a class component skeleton |
+| `reactStartFunction`   | starting a new file with a function component skeleton |
 | `didMount→`   | `componentDidMount() {…}` |
 | `didUpdate→`  | `componentDidUpdate(prevProps, prevState) {…}` |
 | `willMount→`   | `componentWillMount() {…}` |
