@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-${1}: React.PropTypes.func${2:.isRequired}$0
+${1}: PropTypes.func${2:.isRequired}$0
 ]]></content>
-    <tabTrigger>ptf</tabTrigger>
+    <tabTrigger>propTypesFunc</tabTrigger>
     <scope>source.js</scope>
     <description>React: PropTypes.func</description>
 </snippet>

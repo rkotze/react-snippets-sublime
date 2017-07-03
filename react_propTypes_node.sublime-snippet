@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-${1}: React.PropTypes.node${2:.isRequired}$0
+${1}: PropTypes.node${2:.isRequired}$0
 ]]></content>
-    <tabTrigger>ptn</tabTrigger>
+    <tabTrigger>propTypesNode</tabTrigger>
     <scope>source.js</scope>
     <description>React: PropTypes.node</description>
 </snippet>
