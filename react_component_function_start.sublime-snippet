@@ -1,18 +1,18 @@
 <snippet>
     <content><![CDATA[
 import React from 'react';
-import PropTypes from 'prop-types';
+${3:import PropTypes from 'prop-types';}
 
 function ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}(${2:props}) {
-	return ${3:(
-		${4:<div>${0}</div>}
+	return ${5:(
+		${6:<div>${0}</div>}
 	);}
 }
 
 ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.displayName = '${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}';
-${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.propTypes = {
-	${5:}
-};
+${4:${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.propTypes = {
+	${7}
+\};}
 
 export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}};
 
