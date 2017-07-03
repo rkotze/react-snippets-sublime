@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends Component {
+	render() {
+		return ${2:(
+			${3:<div>${0}</div>}
+		);}
+	}
+}
+
+${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.displayName = '${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}';
+${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.propTypes = {
+	
+};
+
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}};
+
+]]></content>
+    <tabTrigger>reactStartClass</tabTrigger>
+    <scope>source.js -(meta)</scope>
+    <description>React: start file class component</description>
+</snippet>

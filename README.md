@@ -19,6 +19,7 @@ Only the ES6 and `React 15+` versions.
 | Trigger  | Content |
 | -------: | ------- |
 | `reactCreateClass→`   | class component skeleton |
+| `reactStartClass`   | starting a new file with a class component skeleton |
 | `didMount→`   | `componentDidMount() {…}` |
 | `didUpdate→`  | `componentDidUpdate(prevProps, prevState) {…}` |
 | `willMount→`   | `componentWillMount() {…}` |
