@@ -32,21 +32,21 @@ Only the ES6 and `React 15+` versions.
 | `shouldUpdate→`   | `shouldComponentUpdate(nextProps, nextState) {…}` |
 | `props→` | `this.props` |
 | `state→` | `this.state` |
-| `pt→`    | `propTypes { ... }` |
-| `pta→`   | `PropTypes.arrayOf` |
-| `ptai→`  | `PropTypes.arrayOf (Instances)` |
-| `ptb→`   | `PropTypes.bool` |
-| `pte→`   | `PropTypes.element` |
-| `ptf→`   | `PropTypes.func` |
-| `pti→`   | `PropTypes.instanceOf` |
-| `ptn→`   | `PropTypes.number` |
-| `ptn→`   | `PropTypes.node` |
-| `pto→`   | `PropTypes.object` |
-| `ptof→`  | `PropTypes.oneOf (Enum)` |
-| `ptof→`  | `PropTypes.objectOf` |
-| `ptoft→` | `PropTypes.oneOfType (Union)` |
-| `pts→`   | `PropTypes.string` |
-| `ptsp→`  | `PropTypes.shape` |
+| `propTypes→`    | `propTypes { ... }` |
+| `propTypesArrayOf→`   | `PropTypes.arrayOf` |
+| `propTypesArrayOfInstances→`  | `PropTypes.arrayOf (Instances)` |
+| `propTypesBool→`   | `PropTypes.bool` |
+| `propTypesElement→`   | `PropTypes.element` |
+| `propTypesFunc→`   | `PropTypes.func` |
+| `propTypesInstanceOf→`   | `PropTypes.instanceOf` |
+| `propTypesNumber→`   | `PropTypes.number` |
+| `propTypesNode→`   | `PropTypes.node` |
+| `propTypesObject→`   | `PropTypes.object` |
+| `propTypesOneOf→`  | `PropTypes.oneOf (Enum)` |
+| `propTypesObjectOf→`  | `PropTypes.objectOf` |
+| `propTypesOneOfType→` | `PropTypes.oneOfType (Union)` |
+| `propTypesString→`   | `PropTypes.string` |
+| `propTypesShape→`  | `PropTypes.shape` |
 
 ## Notes
 
